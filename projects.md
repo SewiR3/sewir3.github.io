@@ -1,3 +1,7 @@
+---
+title: Projects
+---
+
 ## Projects
 
-- [2026](https://sewir3.github.io/svportfolio/projects/2026)
+- [2026](https://severinvire.github.io/svportfolio/projects/2026)

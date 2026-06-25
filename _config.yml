@@ -2,3 +2,18 @@ theme: jekyll-theme-minimal
 title: Severin Vire
 description: My Portfolio
 breadcrumbs: true
+
+url: "https://severinvire.github.io"
+baseurl: "/svportfolio" 
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Default titles for pages that don't specify one
+defaults:
+  - scope:
+      path: ""
+    values:
+      title: "Severin Vire"

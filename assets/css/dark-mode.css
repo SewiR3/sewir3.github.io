@@ -1,0 +1,98 @@
+/* ===== DARK MODE OVERRIDES ===== */
+body.dark-mode {
+  background-color: #1a1a1a !important;
+  color: white !important;
+}
+body.dark-mode .wrapper {
+  background-color: #1a1a1a !important;
+}
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1a1a1a !important;
+}
+body.dark-mode a {
+  color: #88b4ff !important;
+}
+body.dark-mode a:hover {
+  color: #bbd4ff !important;
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode .view a {
+  color: #e0e0e0 !important;
+}
+body.dark-mode code,
+body.dark-mode pre {
+  background-color: #1a1a1a !important;
+  color: #f8f8f2 !important;
+  border-color: #444 !important;
+}
+body.dark-mode pre {
+  border: 1px solid #444 !important;
+}
+body.dark-mode blockquote {
+  border-left-color: #88b4ff !important;
+  color: #ccc !important;
+}
+body.dark-mode table {
+  border-color: #444 !important;
+  color: #e0e0e0 !important;
+}
+body.dark-mode th,
+body.dark-mode td {
+  border-color: #444 !important;
+  background-color: #1a1a1a !important;
+}
+body.dark-mode th {
+  background-color: #1a1a1a !important;
+}
+body.dark-mode hr {
+  border-color: #444 !important;
+}
+body.dark-mode div[style*="border-bottom"] {
+  border-bottom-color: #444 !important;
+}
+body.dark-mode ul.downloads {
+  background-color: #1a1a1a !important;
+  border-color: #444 !important;
+}
+body.dark-mode ul.downloads li {
+  border-color: #444 !important;
+}
+body.dark-mode ul.downloads a {
+  color: #88b4ff !important;
+}
+body.dark-mode .theme-toggle {
+  background: #1a1a1a;
+  color: #e0e0e0;
+  border-color: #88b4ff;
+}
+body.dark-mode .theme-toggle:hover {
+  background: #1a1a1a;
+}
+
+/* ===== TOGGLE BUTTON – always visible ===== */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 7px 7px;
+  border-radius: 35px;
+  background: white;
+  color: #1a1a1a;
+  border: 1px solid #88b4ff;
+  cursor: pointer;
+  z-index: 9999;
+  font-family: inherit;
+  font-size: 10px;
+  transition: 0.2s;
+}
+.theme-toggle:hover {
+  background: #e0e0e0;
+}

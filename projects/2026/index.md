@@ -6,5 +6,4 @@ permalink: /projects/2026
 
 ## 2026 Projects
 
-1. [Distance-Based Gestural Security Lock (DBGSL)](https://github.com/SewiR3.github.io/svportfolio/projects/2026/DBGSL)
-2. [Another Awesome Project](another-awesome-project/)
+1. [Laptop Battery (DBGSL)](https://github.com/severinvire.github.io/svportfolio/projects/2026/laptopbattery)
