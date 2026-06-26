@@ -21,7 +21,7 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"My Portfolio","headline":"Projects","url":"http://localhost:4000/svportfolio/projects.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/svportfolio/assets/css/style.css?v=0fb6fddac5308dad132cf7109b7aa6ba6632abe2">
+    <link rel="stylesheet" href="/svportfolio/assets/css/style.css?v=7f575f91215e7fbbe02ee0f490a754b50602da01">
     <link rel="stylesheet" href="/svportfolio/assets/css/dark-mode.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -39,6 +39,16 @@
 
   </head>
   <body>
+    <!-- Prevent white flash on dark mode -->
+    <script>
+      (function() {
+        try {
+          if (localStorage.getItem('darkMode') === 'true') {
+            document.body.classList.add('dark-mode');
+          }
+        } catch (e) {}
+      })();
+    </script>
     <div class="wrapper">
       <header>
         <h1><a href="http://localhost:4000/svportfolio/">Severin Vire</a></h1>
