@@ -1,11 +1,8 @@
 ---
-layout: default
-title: "Introduction"
-permalink: /svportfolio/introduction
+title: Introduction
 ---
 
 ## Introduction
 
-Welcome to my portfolio. I’m Severin Vire, a first‑year engineering student at Monash University.
-
-This site showcases my projects and interests in electrical engineering, design, and testing.
+Welcome to my portfolio. You can view all my public projects here.
+They are open-source, and links to individual repository will be provided for each project.

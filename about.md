@@ -1,7 +1,5 @@
 ---
-layout: default
-title: "About Me"
-permalink: /svportfolio/about
+title: About Me
 ---
 
 ## About Me

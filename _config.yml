@@ -1,7 +1,6 @@
 theme: jekyll-theme-minimal
 title: Severin Vire
 description: My Portfolio
-breadcrumbs: true
 
 url: "https://severinvire.github.io"
 baseurl: "/svportfolio" 
