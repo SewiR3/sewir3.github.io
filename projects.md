@@ -4,4 +4,4 @@ title: Projects
 
 ## Projects
 
-- [2026]({{ '/projects/projects2026' | relative_url}})
+- [2026]({{ '/projects/projects_2026' | relative_url}})

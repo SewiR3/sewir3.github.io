@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (stored !== null) {
     isDark = stored === 'true';
   } else {
-    isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    isDark = false;
   }
 
   // Apply initial state
